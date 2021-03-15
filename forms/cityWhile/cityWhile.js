@@ -10,7 +10,7 @@ while(enterMore == true) {
         cities.push(city)
         }
 
-var i = 0
+    var i = 0
 while(cities[i]) {
     console.log(cities[i])
     i++
