@@ -9,7 +9,6 @@ while(enterMore == true) {
         } else {
         cities.push(city)
         }
-}
 
 var i = 0
 while(cities[i]) {
