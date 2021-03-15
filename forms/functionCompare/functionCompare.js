@@ -1,11 +1,16 @@
-let password = prompt("New password is:")
-let again = prompt("Please reenter password:)
-function Compare(passwrod, again) {
-    var answer = password.localeCompare(again)
-    return answer
+function comaprePassword(pass1, pass2){
+    if (pass1 == pass2) {
+    return true
+} else {
+    return false
     }
-let finalPassword = Compare(password, again)
-if (finalPassword == "")
-    console.log("The passwords are the same.")
-else
-    console.log("The password does not match.")
+}
+
+password1 = prompt('Enter your new password.')
+password2 = prompt('Enter your new password.')
+result = comparePassword(password1, password2)
+    if (result == true) {
+    console.log('The passwords are the same.')
+} else {
+    console.log('The passwords are not the same.')
+}
